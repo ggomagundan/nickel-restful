@@ -1,0 +1,17 @@
+[package]
+
+name = "nickel-postgres-scratch"
+version = "0.0.0"
+authors = [ "bguiz" ]
+
+[[bin]]
+name = "nickel-postgres-scratch"
+path = "src/main.rs"
+
+[dependencies]
+nickel = "*"
+mysql = "*"
+time = "*"
+rustc-serialize = "*"
+hyper = "*"
+
